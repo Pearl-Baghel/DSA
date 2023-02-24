@@ -24,10 +24,11 @@ cout<< "I am pearl baghel" << endl;
 // unsigned int a = 112;
 // cout<<a<<endl;
 
-int a = 2/5;
+float a = 2/5;
 cout<< a <<endl;
 cout<<2.0/5<<endl;
-
+int n = (int)a +1;
+cout<<n<<endl;
 }  
 // cout<< to write standard output std ke under hume kuch output karvana hai to we need to use this
 // endl and \n are used to enter new line

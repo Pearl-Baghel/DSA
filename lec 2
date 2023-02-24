@@ -7,9 +7,10 @@ char ch ='a' ;
 memory me ch name ka variable banega aur usme 'a' store ho jaiga 
 ch = variable name
 char = data type (ie store 1 byte (8bit))
-bool - true (1) ,False(0) (store 1 bit)
-Float f = 1.2 (store 8 byte store decimal type no.)
+bool - true (1) ,False(0) (store 1 byte)
+Float f = 1.2 (store 4 byte store decimal type no.)
 double d = 1.23; ( store 8 byte)
+1 byte is the smallest addressable size of CPU
 Variable name can't start with numbers
 How data is stored ??
 int a = 8;
@@ -23,6 +24,7 @@ character ki ASCII value dekhenge fir usse binary me convert karenge fir usse bi
 TYPE CASTING
 int a = 'a';
 char ch = 98;
+Explicite type casting in this we can change the data type from one to another but in a specific order....!!
 int 32 bit --> max 2^32-1 min 0
 char 8 bit --> max 2^8-1 min 0
 so if we take any value which is integer that is 2^16 but cannot be a char 
