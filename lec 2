@@ -1,0 +1,36 @@
+In this lecture we will learn about Datatypes and Variables
+int a = 5 ;
+This show that memory ke andar ek a space hoga jisme 5 store ho gaya hoga .
+variable = a
+type = integer (ie store 4 byte (32bit) and store the value of variable a)
+char ch ='a' ; 
+memory me ch name ka variable banega aur usme 'a' store ho jaiga 
+ch = variable name
+char = data type (ie store 1 byte (8bit))
+bool - true (1) ,False(0) (store 1 bit)
+Float f = 1.2 (store 8 byte store decimal type no.)
+double d = 1.23; ( store 8 byte)
+Variable name can't start with numbers
+How data is stored ??
+int a = 8;
+int = 4 byte 
+8 binary = 1000
+32 bits = 0000.............1000 
+ASCII table 
+char ch ='a';
+character ki ASCII value dekhenge fir usse binary me convert karenge fir usse binary ko 8 bit char datatype me store karenge 0/1 ke terms me 
+** compiler ko kaise pata lagega ki data jo store hua hai vo char hai ya int hai ---> uske data type se
+TYPE CASTING
+int a = 'a';
+char ch = 98;
+int 32 bit --> max 2^32-1 min 0
+char 8 bit --> max 2^8-1 min 0
+so if we take any value which is integer that is 2^16 but cannot be a char 
+eg: char ch = 123456
+error will occur and the document will take last value and then execute the line
+Compilation process for storinging a negetive no. and printing it --> first we will removethe negetive sign then change the no to binary then take its 2's compliment after that we will get to know that it is negetive no now again change that into 2's compliment we will get to know the no and print it so from storing first we will know it is negetive then next step we will know it is what no hence we will compile it completely.
+Operators --> % modulo operator
+arithmatic operator + - * /
+and --> && not --> !
+Bitwise operator also there 
+
